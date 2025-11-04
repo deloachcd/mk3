@@ -52,3 +52,7 @@ NB: If you want to make this work for the mk2, have a look at this [issue](https
 	"previous track" and "next track" are repeated for both up/down and left/right, with
 	the intention of making navigation more intuitive in both Session and Arrangement view
 1. A bug where two mixer knobs send to the same return track has been fixed
+1. Four "bind" programs have been added under `assets/presets` - in total, these programs
+	add 32 more knobs with absolute encoders (8 in each program) for the purpose of making
+	new MIDI binds without creating any conflicts with the relative encoder bindings that
+	control mixer and device parameters
